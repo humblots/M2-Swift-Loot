@@ -14,6 +14,10 @@
 		40A720122B4E8E1B00B3836F /* LootTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A720112B4E8E1B00B3836F /* LootTests.swift */; };
 		40A7201C2B4E8E1B00B3836F /* LootUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A7201B2B4E8E1B00B3836F /* LootUITests.swift */; };
 		40A7201E2B4E8E1B00B3836F /* LootUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A7201D2B4E8E1B00B3836F /* LootUITestsLaunchTests.swift */; };
+		40A7202B2B4E909600B3836F /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A7202A2B4E909600B3836F /* AddItemView.swift */; };
+		40A7202D2B4EA09400B3836F /* ANSWERS.md in Resources */ = {isa = PBXBuildFile; fileRef = 40A7202C2B4EA09400B3836F /* ANSWERS.md */; };
+		40A7202F2B4EADCE00B3836F /* LootItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A7202E2B4EADCE00B3836F /* LootItem.swift */; };
+		40A720312B4EAF6D00B3836F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A720302B4EAF6D00B3836F /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		40A720172B4E8E1B00B3836F /* LootUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LootUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40A7201B2B4E8E1B00B3836F /* LootUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootUITests.swift; sourceTree = "<group>"; };
 		40A7201D2B4E8E1B00B3836F /* LootUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40A7202A2B4E909600B3836F /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		40A7202C2B4EA09400B3836F /* ANSWERS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ANSWERS.md; sourceTree = "<group>"; };
+		40A7202E2B4EADCE00B3836F /* LootItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootItem.swift; sourceTree = "<group>"; };
+		40A720302B4EAF6D00B3836F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 		40A71FF42B4E8E1800B3836F = {
 			isa = PBXGroup;
 			children = (
+				40A7202C2B4EA09400B3836F /* ANSWERS.md */,
 				40A71FFF2B4E8E1800B3836F /* Loot */,
 				40A720102B4E8E1B00B3836F /* LootTests */,
 				40A7201A2B4E8E1B00B3836F /* LootUITests */,
@@ -94,10 +103,13 @@
 		40A71FFF2B4E8E1800B3836F /* Loot */ = {
 			isa = PBXGroup;
 			children = (
+				40A7202E2B4EADCE00B3836F /* LootItem.swift */,
 				40A720002B4E8E1800B3836F /* LootApp.swift */,
 				40A720022B4E8E1800B3836F /* ContentView.swift */,
 				40A720042B4E8E1A00B3836F /* Assets.xcassets */,
 				40A720062B4E8E1A00B3836F /* Preview Content */,
+				40A7202A2B4E909600B3836F /* AddItemView.swift */,
+				40A720302B4EAF6D00B3836F /* Game.swift */,
 			);
 			path = Loot;
 			sourceTree = "<group>";
@@ -231,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40A7202D2B4EA09400B3836F /* ANSWERS.md in Resources */,
 				40A720082B4E8E1A00B3836F /* Preview Assets.xcassets in Resources */,
 				40A720052B4E8E1A00B3836F /* Assets.xcassets in Resources */,
 			);
@@ -258,6 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				40A720032B4E8E1800B3836F /* ContentView.swift in Sources */,
+				40A720312B4EAF6D00B3836F /* Game.swift in Sources */,
+				40A7202B2B4E909600B3836F /* AddItemView.swift in Sources */,
+				40A7202F2B4EADCE00B3836F /* LootItem.swift in Sources */,
 				40A720012B4E8E1800B3836F /* LootApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
